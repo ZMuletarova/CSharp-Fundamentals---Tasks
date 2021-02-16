@@ -1,2 +1,2 @@
 # CSharp Fundamentals - Tasks
-Mainly Introduction to Associative Arrays, Lists, Object and Classes, Methods, Regex, Bitwise Operations
+Mainly Introduction to Associative Arrays, Lists, Objects and Classes, Methods, Regex, Bitwise Operations

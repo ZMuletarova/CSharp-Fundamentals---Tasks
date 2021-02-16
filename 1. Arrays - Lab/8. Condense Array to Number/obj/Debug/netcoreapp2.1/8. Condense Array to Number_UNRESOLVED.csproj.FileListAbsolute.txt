@@ -1,0 +1,12 @@
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\8. Condense Array to Number\bin\Debug\netcoreapp2.1\8. Condense Array to Number_UNRESOLVED.deps.json
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\8. Condense Array to Number\bin\Debug\netcoreapp2.1\8. Condense Array to Number_UNRESOLVED.runtimeconfig.json
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\8. Condense Array to Number\bin\Debug\netcoreapp2.1\8. Condense Array to Number_UNRESOLVED.runtimeconfig.dev.json
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\8. Condense Array to Number\bin\Debug\netcoreapp2.1\8. Condense Array to Number_UNRESOLVED.dll
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\8. Condense Array to Number\bin\Debug\netcoreapp2.1\8. Condense Array to Number_UNRESOLVED.pdb
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\8. Condense Array to Number\obj\Debug\netcoreapp2.1\8. Condense Array to Number_UNRESOLVED.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\8. Condense Array to Number\obj\Debug\netcoreapp2.1\8. Condense Array to Number_UNRESOLVED.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\8. Condense Array to Number\obj\Debug\netcoreapp2.1\8. Condense Array to Number_UNRESOLVED.AssemblyInfo.cs
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\8. Condense Array to Number\obj\Debug\netcoreapp2.1\8. Condense Array to Number_UNRESOLVED.dll
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\8. Condense Array to Number\obj\Debug\netcoreapp2.1\8. Condense Array to Number_UNRESOLVED.pdb
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\8. Condense Array to Number\obj\Debug\netcoreapp2.1\8. Condense Array to Number_UNRESOLVED.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\8. Condense Array to Number\obj\Debug\netcoreapp2.1\8. Condense Array to Number_UNRESOLVED.genruntimeconfig.cache

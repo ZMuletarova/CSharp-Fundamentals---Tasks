@@ -1,0 +1,12 @@
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\2. Print Numbers in Reverse Order\bin\Debug\netcoreapp2.1\2. Print Numbers in Reverse Order.deps.json
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\2. Print Numbers in Reverse Order\bin\Debug\netcoreapp2.1\2. Print Numbers in Reverse Order.runtimeconfig.json
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\2. Print Numbers in Reverse Order\bin\Debug\netcoreapp2.1\2. Print Numbers in Reverse Order.runtimeconfig.dev.json
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\2. Print Numbers in Reverse Order\bin\Debug\netcoreapp2.1\2. Print Numbers in Reverse Order.dll
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\2. Print Numbers in Reverse Order\bin\Debug\netcoreapp2.1\2. Print Numbers in Reverse Order.pdb
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\2. Print Numbers in Reverse Order\obj\Debug\netcoreapp2.1\2. Print Numbers in Reverse Order.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\2. Print Numbers in Reverse Order\obj\Debug\netcoreapp2.1\2. Print Numbers in Reverse Order.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\2. Print Numbers in Reverse Order\obj\Debug\netcoreapp2.1\2. Print Numbers in Reverse Order.AssemblyInfo.cs
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\2. Print Numbers in Reverse Order\obj\Debug\netcoreapp2.1\2. Print Numbers in Reverse Order.dll
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\2. Print Numbers in Reverse Order\obj\Debug\netcoreapp2.1\2. Print Numbers in Reverse Order.pdb
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\2. Print Numbers in Reverse Order\obj\Debug\netcoreapp2.1\2. Print Numbers in Reverse Order.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\2. Print Numbers in Reverse Order\obj\Debug\netcoreapp2.1\2. Print Numbers in Reverse Order.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\7. Equal Arrays\bin\Debug\netcoreapp2.1\7. Equal Arrays.deps.json
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\7. Equal Arrays\bin\Debug\netcoreapp2.1\7. Equal Arrays.runtimeconfig.json
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\7. Equal Arrays\bin\Debug\netcoreapp2.1\7. Equal Arrays.runtimeconfig.dev.json
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\7. Equal Arrays\bin\Debug\netcoreapp2.1\7. Equal Arrays.dll
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\7. Equal Arrays\bin\Debug\netcoreapp2.1\7. Equal Arrays.pdb
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\7. Equal Arrays\obj\Debug\netcoreapp2.1\7. Equal Arrays.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\7. Equal Arrays\obj\Debug\netcoreapp2.1\7. Equal Arrays.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\7. Equal Arrays\obj\Debug\netcoreapp2.1\7. Equal Arrays.AssemblyInfo.cs
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\7. Equal Arrays\obj\Debug\netcoreapp2.1\7. Equal Arrays.dll
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\7. Equal Arrays\obj\Debug\netcoreapp2.1\7. Equal Arrays.pdb
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\7. Equal Arrays\obj\Debug\netcoreapp2.1\7. Equal Arrays.genruntimeconfig.cache
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\Arrays_LAB\7. Equal Arrays\obj\Debug\netcoreapp2.1\7. Equal Arrays.csprojAssemblyReference.cache

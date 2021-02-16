@@ -1,0 +1,11 @@
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\1. Day of Week\bin\Debug\netcoreapp2.1\1. Day of Week.deps.json
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\1. Day of Week\bin\Debug\netcoreapp2.1\1. Day of Week.runtimeconfig.json
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\1. Day of Week\bin\Debug\netcoreapp2.1\1. Day of Week.runtimeconfig.dev.json
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\1. Day of Week\bin\Debug\netcoreapp2.1\1. Day of Week.dll
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\1. Day of Week\bin\Debug\netcoreapp2.1\1. Day of Week.pdb
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\1. Day of Week\obj\Debug\netcoreapp2.1\1. Day of Week.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\1. Day of Week\obj\Debug\netcoreapp2.1\1. Day of Week.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\1. Day of Week\obj\Debug\netcoreapp2.1\1. Day of Week.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\1. Day of Week\obj\Debug\netcoreapp2.1\1. Day of Week.AssemblyInfo.cs
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\1. Day of Week\obj\Debug\netcoreapp2.1\1. Day of Week.dll
+C:\Users\USER\Desktop\C# Fundamentals\8. Arrays\1. Day of Week\obj\Debug\netcoreapp2.1\1. Day of Week.pdb

@@ -6,7 +6,7 @@ namespace _1._Day_of_Week
     {
         static void Main(string[] args)
         {
-            string[] days = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
+            string[] days = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" ,"Sunday"};
 
             int n = int.Parse(Console.ReadLine());
 
@@ -18,6 +18,7 @@ namespace _1._Day_of_Week
             else
             {
                 Console.WriteLine(days[n - 1]);
+
             }
 
         }

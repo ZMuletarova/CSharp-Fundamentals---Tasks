@@ -6,7 +6,7 @@ namespace _6._Even_and_Odd_Subtraction
     {
         static void Main(string[] args)
         {
-            int[] numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            var numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
 
             int evenNumbers = 0;
             int oddNumbers = 0;
@@ -26,7 +26,6 @@ namespace _6._Even_and_Odd_Subtraction
             }
 
             diffNumbers = evenNumbers - oddNumbers;
-
             Console.WriteLine(diffNumbers);
         }
     }

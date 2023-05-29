@@ -8,7 +8,7 @@ namespace _5._Sum_Even_Numbers
     {
         static void Main(string[] args)
         {
-            int[] numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            var numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
 
             double sum = 0;
 
@@ -24,7 +24,6 @@ namespace _5._Sum_Even_Numbers
                     sum += 0;
                 }
             }
-
             Console.WriteLine(sum);
         }
     }

@@ -8,13 +8,11 @@ namespace _7._Equal_Arrays
         static void Main(string[] args)
         {
 
-            int[] firstArray = Console.ReadLine().Split().Select(int.Parse).ToArray();
-
-            int[] secondArray = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            var firstArray = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            var secondArray = Console.ReadLine().Split().Select(int.Parse).ToArray();
 
             int counter = 0;
             int sumArrays = 0;
-
             int counterEqual = 0;
 
             for (int i = 0; i < firstArray.Length; i++)

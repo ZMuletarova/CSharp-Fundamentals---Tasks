@@ -18,9 +18,7 @@ namespace _1._Day_of_Week
             else
             {
                 Console.WriteLine(days[n - 1]);
-
             }
-
         }
     }
 }

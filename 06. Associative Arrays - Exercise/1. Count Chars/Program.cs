@@ -12,7 +12,7 @@ namespace Associative_Arrays_UPR
         {
             var hystogram = new Dictionary<char, int>();
             string text = Console.ReadLine();
-            char[] charText = text.ToCharArray();
+            var charText = text.ToCharArray();
 
             for (int i = 0; i < charText.Length; i++)
             {

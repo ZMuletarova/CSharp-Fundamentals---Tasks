@@ -48,7 +48,6 @@ namespace _4._Star_Enigma
                     {
                         destroyedPlanets[namePlanet] = 1;
                     }
-
                     else
                     {
                         destroyedPlanets[namePlanet] += 1;
@@ -61,7 +60,6 @@ namespace _4._Star_Enigma
                     {
                         atackedPlanets[namePlanet] = 1;
                     }
-
                     else
                     {
                         atackedPlanets[namePlanet] += 1;
@@ -84,7 +82,6 @@ namespace _4._Star_Enigma
             {
                 Console.WriteLine($"-> {allItemDestroyed.Key}");
             }
-
         }
     }
 }

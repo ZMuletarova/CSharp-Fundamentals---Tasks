@@ -26,7 +26,6 @@ namespace _2._Boss_Rush
                     string armourLenght = match.Groups["title"].Value;
                     Console.WriteLine($">> Armour: {armourLenght.Length}");
                 }
-
                 else
                 {
                     Console.WriteLine("Access denied!");

@@ -33,13 +33,11 @@ namespace _3._Battle_Manager
                     {
                         dic[personName] = new int[] { health, energy };
                     }
-
                     else
                     {
                         dic[personName][0] += health;
                     }
                 }
-
                 else if (splittedCommand[0]== "Attack")
                 {
                     string attackerName = splittedCommand[1];
@@ -65,7 +63,6 @@ namespace _3._Battle_Manager
                         }
                     }
                 }
-
                 else if (splittedCommand[0]=="Delete")
                 {
                     string userName = splittedCommand[1];
@@ -83,7 +80,6 @@ namespace _3._Battle_Manager
             }
 
             Console.WriteLine($"People count: {dic.Count}");
-
             var finalDic = dic.OrderByDescending(x => x.Value[0]).ThenBy(x => x.Key).ToArray();
             //var final = dic.OrderByDescending(x => x.Value[0] + x.Value[1]).ThenBy(x => x.Key).ToArray();
 

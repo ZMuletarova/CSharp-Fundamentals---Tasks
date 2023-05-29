@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-
 namespace _6._Students_2._0
 {
     class Program
@@ -11,6 +10,7 @@ namespace _6._Students_2._0
         static void Main(string[] args)
         {
             List<Student> students = new List<Student>();
+
             while (true)
             {
                 string command = Console.ReadLine();
@@ -30,7 +30,6 @@ namespace _6._Students_2._0
                 {
                     Student student = GetStudent(students, firstName, lastName, age);
                 }
-
                 else
                 {
                     Student student = new Student();
@@ -63,25 +62,21 @@ namespace _6._Students_2._0
                 {
                     return true;
                 }
-
             }
             return false;
         }
-
 
         static Student GetStudent(List<Student> students, string firstName, string lastName, int age)
         {
             Student exisiting = null;
             foreach (Student student in students)
             {
-
                 if (student.FirstName == firstName && student.LastName == lastName)
                 {
                     exisiting = student;
                     exisiting.Age = age;
                 }
             }
-
             return exisiting;
         }
     }

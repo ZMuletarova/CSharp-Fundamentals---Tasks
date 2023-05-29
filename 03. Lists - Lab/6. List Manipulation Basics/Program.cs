@@ -8,7 +8,7 @@ namespace _6._List_Manipulation_Basics
     {
         static void Main(string[] args)
         {
-            List<int> numbers = Console.ReadLine().Split().Select(int.Parse).ToList();
+            var numbers = Console.ReadLine().Split().Select(int.Parse).ToList();
             //string input = string.Empty;
             while (true)
             {
@@ -19,23 +19,22 @@ namespace _6._List_Manipulation_Basics
                     break;
                 }
 
-                string[] inputARR = input.Split();
+                var inputArray = input.Split();
                 
-                switch (inputARR[0])
+                switch (inputArray[0])
                 {
                     case "Add":
-                        int numberAdd = int.Parse(inputARR[1]);
+                        int numberAdd = int.Parse(inputArray[1]);
                         numbers.Add(numberAdd);
                         break;
 
                     case "Remove":
-                        int numberRemove = int.Parse(inputARR[1]);
+                        int numberRemove = int.Parse(inputArray[1]);
 
                         for (int i = 0; i < numbers.Count; i++)
                         {
                             numbers.Remove(numberRemove);
                         }
-
                         break;
 
                     case "RemoveAt":

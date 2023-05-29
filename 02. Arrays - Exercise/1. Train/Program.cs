@@ -7,9 +7,7 @@ namespace _1._Train
         static void Main(string[] args)
         {
             int countOfWagons = int.Parse(Console.ReadLine());
-
             var numberOfPeople = new int[countOfWagons];
-
             int sumOfPeople = 0;
 
             for (int i = 0; i < countOfWagons; i++)
@@ -23,7 +21,6 @@ namespace _1._Train
             {
                 Console.Write(numberOfPeople[i]+" ");
             }
-
             Console.WriteLine();
             Console.WriteLine(sumOfPeople);
         }

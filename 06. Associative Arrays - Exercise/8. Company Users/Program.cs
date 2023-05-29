@@ -25,13 +25,11 @@ namespace _8._Company_Users
                 string companyName = splittedInput[0];
                 string employeeId = splittedInput[1];
 
-
                 if (!dic.ContainsKey(companyName))
                 {
                     dic[companyName] = new List<string>();
                     dic[companyName].Add(employeeId);
                 }
-
                 else
                 {
                     int count = 0;
@@ -52,7 +50,6 @@ namespace _8._Company_Users
                     {
                         dic[companyName].Add(employeeId);
                     }
-
                     else
                     {
                         continue;

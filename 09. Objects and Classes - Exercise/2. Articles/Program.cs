@@ -11,7 +11,6 @@ namespace _2._Articles
         {
             string[] articlesInput = Console.ReadLine().Split(", ").ToArray();
             Article myArticle = new Article(articlesInput[0], articlesInput[1], articlesInput[2]);
-
             int count = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < count; i++)
@@ -22,12 +21,10 @@ namespace _2._Articles
                 {
                     myArticle.Edit(commandTokens[1]);
                 }
-
                 else if (commandTokens[0] == "ChangeAuthor")
                 {
                     myArticle.ChangeAuthor(commandTokens[1]);
                 }
-
                 else if (commandTokens[0] == "Rename")
                 {
                     myArticle.Rename(commandTokens[1]);
@@ -45,6 +42,7 @@ namespace _2._Articles
             Author = author;
             Content = content;
         }
+
         public string Title { get; set; }
 
         public string Content { get; set; }
@@ -70,7 +68,5 @@ namespace _2._Articles
         {
             return $"{Title} - {Content}: {Author}";
         }
-
     }
-
 }

@@ -14,7 +14,6 @@ namespace _7.__String_Explosion
             int finalBomb = 0;
             int finalBombReserved = 0;
 
-
             for (int i = 0; i < input.Length; i++)
             {
 
@@ -30,7 +29,6 @@ namespace _7.__String_Explosion
                             input = input.Remove(i + 1, 1);
 
                         }
-
                         else
                         {
                             finalBombReserved++;
@@ -39,46 +37,15 @@ namespace _7.__String_Explosion
                             {
                                 i++;
                             }
-
                         }
                     }
-
                 }
-
                 else
                 {
                     continue;
                 }
-
             }
-
             Console.WriteLine(input);
-
-
-            //string input = Console.ReadLine();
-
-            //string[] splitedInput = input.Split(">");
-            //string result = splitedInput[0];
-            //int remainingPower = 0;
-
-            //for (int i = 1; i < splitedInput.Length; i++)
-            //{
-            //    result += ">";
-            //    int power = int.Parse(splitedInput[i][0].ToString()) + remainingPower;
-
-
-            //    if (power > splitedInput[i].Length)
-            //    {
-            //        remainingPower = power - splitedInput[i].Length;
-            //    }
-
-            //    else
-            //    {
-            //        result += splitedInput[i].Substring(power);
-            //    }
-
-            //}
-            //Console.WriteLine(result);
         }
     }
 }

@@ -45,13 +45,11 @@ namespace _2._Race
                     {
                         dic[name] = finalKm;
                     }
-
                     else
                     {
                         dic[name] +=finalKm;
                     }
                 }
-
                 else
                 {
                     continue;
@@ -67,18 +65,14 @@ namespace _2._Race
                 {
                     Console.WriteLine($"{count}st place: {item.Key}");
                 }
-                
-
                 if (count==2)
                 {
                     Console.WriteLine($"{count}nd place: {item.Key}");
                 }
-
                 else if (count == 3)
                 {
                     Console.WriteLine($"{count}rd place: {item.Key}");
                 }
-
                 count++;
             }
         }

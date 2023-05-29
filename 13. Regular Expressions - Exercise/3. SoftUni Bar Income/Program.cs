@@ -11,7 +11,6 @@ namespace _3._SoftUni_Bar_Income
         {
 
             string pattern = @"%(?<customer>[A-Z]{1}[a-z]+)%[^|$%\.]*<(?<product>\w+)>[^|$%\.]*\|(?<count>\d+)\|[^|$%\.]*?(?<price>\d+\.?\d+)\$";
-            
             double totalIncome = 0;
             double finalTotalIncome = 0;
 

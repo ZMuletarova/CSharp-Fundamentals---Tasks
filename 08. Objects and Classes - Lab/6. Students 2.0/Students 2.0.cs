@@ -7,7 +7,9 @@ namespace _6._Students_2._0
     class Student
     {
         public string FirstName { get; set; }
+
         public string LastName { get; set; }
+
         public int Age { get; set; }
 
         public string Town { get; set; }

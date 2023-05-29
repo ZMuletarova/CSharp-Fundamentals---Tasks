@@ -2,8 +2,6 @@
 using System.Linq;
 using System.Collections.Generic;
 
-
-
 namespace _4._Largest_3_Numbers
 {
     class Program

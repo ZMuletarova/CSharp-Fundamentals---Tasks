@@ -8,7 +8,7 @@ namespace _4._Jerry_is_going_List_Operations
     {
         static void Main(string[] args)
         {
-            List<int> inputNumbers = Console.ReadLine().Split().Select(int.Parse).ToList();
+            var inputNumbers = Console.ReadLine().Split().Select(int.Parse).ToList();
 
             while (true)
             {
@@ -18,7 +18,7 @@ namespace _4._Jerry_is_going_List_Operations
                     break;
                 }
 
-                string[] splittedCommand = messCommand.Split(" ");
+                var splittedCommand = messCommand.Split(" ");
                 string command = splittedCommand[0];
 
                 switch (messCommand)
@@ -35,7 +35,6 @@ namespace _4._Jerry_is_going_List_Operations
                         {
                             inputNumbers.Insert(indexNumber, numberAdd);
                         }
-
                         else
                         {
                             Console.WriteLine("Invalid index");
@@ -48,7 +47,6 @@ namespace _4._Jerry_is_going_List_Operations
                         {
                             inputNumbers.RemoveAt(indexNumber);
                         }
-
                         else
                         {
                             Console.WriteLine("Invalid index");
@@ -82,7 +80,6 @@ namespace _4._Jerry_is_going_List_Operations
                     default:
                         break;
                 }
-
             }
             Console.WriteLine(string.Join(" ", inputNumbers));
         }

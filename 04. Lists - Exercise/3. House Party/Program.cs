@@ -10,12 +10,12 @@ namespace _3._House_Party
         {
             int numberOfCommands = int.Parse(Console.ReadLine());
             int count = 0;
-            List<string> finalList = new List<string>();
+            var finalList = new List<string>();
 
             for (int i = 0; i < numberOfCommands; i++)
             {
                 string message = Console.ReadLine();
-                string[] splittedMessage = message.Split();
+                var splittedMessage = message.Split();
 
                 if (splittedMessage[1]=="is" && splittedMessage[2]=="going!")
                 {
@@ -23,7 +23,6 @@ namespace _3._House_Party
                     {
                         finalList.Add(splittedMessage[0]);
                     }
-
                     else
                     {
                         Console.WriteLine($"{splittedMessage[0]} is already in the list!");
@@ -36,7 +35,6 @@ namespace _3._House_Party
                     {
                         Console.WriteLine($"{splittedMessage[0]} is not in the list!");
                     }
-
                     else
                     {
                         finalList.Remove(splittedMessage[0]);

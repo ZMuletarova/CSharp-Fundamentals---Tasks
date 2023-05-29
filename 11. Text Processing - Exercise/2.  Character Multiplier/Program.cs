@@ -34,7 +34,6 @@ namespace _2.__Character_Multiplier
                     break;
                 }
             }
-
             return isValid;
         }
     }

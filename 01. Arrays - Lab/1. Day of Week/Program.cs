@@ -14,7 +14,6 @@ namespace _1._Day_of_Week
             {
                 Console.WriteLine("Invalid day!");
             }
-
             else
             {
                 Console.WriteLine(days[n - 1]);

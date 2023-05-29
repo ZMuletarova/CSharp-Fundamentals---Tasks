@@ -8,8 +8,8 @@ namespace _5._Bomb_Numbers
     {
         static void Main(string[] args)
         {
-            List<int> numbers = Console.ReadLine().Split().Select(int.Parse).ToList();
-            List<int> numbersTwo = Console.ReadLine().Split().Select(int.Parse).ToList();
+            var numbers = Console.ReadLine().Split().Select(int.Parse).ToList();
+            var numbersTwo = Console.ReadLine().Split().Select(int.Parse).ToList();
 
             int bombNumber = numbersTwo[0];
             int powerBombNumber = numbersTwo[1];
@@ -28,12 +28,10 @@ namespace _5._Bomb_Numbers
                         {
                             numbers.RemoveAt(1);
                         }
-
                         else if (indexNumberBomb >= numbers.Count - 1)
                         {
                             numbers.RemoveAt(indexNumberBomb--);
                         }
-
                         else
                         {
                             numbers.RemoveAt(indexNumberBomb - 1);
@@ -41,7 +39,6 @@ namespace _5._Bomb_Numbers
                             numbers.RemoveAt(indexNumberBomb + 1);
                         }
                     }
-
                     numbers.Remove(bombNumber);
                     i = -1;
                 }
@@ -53,6 +50,5 @@ namespace _5._Bomb_Numbers
             }
             Console.WriteLine(allSum);
         }
-
     }
 }

@@ -24,7 +24,6 @@ namespace _7.__Student_Academy
                     dic[name] = new List<double>();
                     dic[name].Add(grade);
                 }
-
                 else
                 {
                     dic[name].Add(grade);
@@ -47,7 +46,6 @@ namespace _7.__Student_Academy
                 {
                     newDic[item.Key] = averageNotes;
                 }
-
                 else
                 {
                     continue;

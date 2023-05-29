@@ -8,8 +8,8 @@ namespace _6._Cards_Game
     {
         static void Main(string[] args)
         {
-            List<int> cardsOne = Console.ReadLine().Split().Select(int.Parse).ToList();
-            List<int> cardsTwo = Console.ReadLine().Split().Select(int.Parse).ToList();
+            var cardsOne = Console.ReadLine().Split().Select(int.Parse).ToList();
+            var cardsTwo = Console.ReadLine().Split().Select(int.Parse).ToList();
             int allSumCards = 0;
 
             for (int i = 0; i < cardsOne.Count; i++)
@@ -18,13 +18,11 @@ namespace _6._Cards_Game
                 {
                     break;
                 }
-
                 if (cardsOne[i] == cardsTwo[i])
                 {
                     cardsOne.RemoveAt(i);
                     cardsTwo.RemoveAt(i);
                 }
-
                 else
                 {
                     if (cardsOne[i] > cardsTwo[i])
@@ -34,7 +32,6 @@ namespace _6._Cards_Game
                         cardsOne.RemoveAt(0);
                         cardsTwo.RemoveAt(0);
                     }
-
                     else if (cardsOne[i] < cardsTwo[i])
                     {
                         cardsTwo.Insert(cardsTwo.Count, cardsTwo[0]);
@@ -43,7 +40,6 @@ namespace _6._Cards_Game
                         cardsOne.RemoveAt(0);
                     }
                 }
-
                 i = -1;
             }
 
@@ -55,7 +51,6 @@ namespace _6._Cards_Game
                 }
                 Console.WriteLine($"First player wins! Sum: {allSumCards}");
             }
-
             else
             {
                 for (int i = 0; i < cardsTwo.Count; i++)

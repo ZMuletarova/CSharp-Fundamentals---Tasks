@@ -14,11 +14,11 @@ namespace Mid_Exam_06._08._2019
             for (int i = 1; i <= daysPlunder; i++)
             {
                 sum += dailyPlunder;
+
                 if (i % 3 == 0)
                 {
                     sum += dailyPlunder / 2M;
                 }
-
                 if (i % 5 == 0)
                 {
                     sum -=sum*0.3M;

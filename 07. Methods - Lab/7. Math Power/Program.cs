@@ -12,12 +12,12 @@ namespace _8._Math_Power
             Console.WriteLine(area);
         }
 
-         static double MathPow(double firstNumber, int numberToPow)
+        static double MathPow(double firstNumber, int numberToPow)
         {
             double finalSum = 1;
             for (int i = 0; i < numberToPow; i++)
             {
-                finalSum =finalSum*firstNumber;
+                finalSum = finalSum * firstNumber;
 
             }
             return finalSum;

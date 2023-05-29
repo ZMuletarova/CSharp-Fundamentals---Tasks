@@ -22,7 +22,7 @@ namespace _4._Orders
                     break;
                 }
 
-                string[] splittedInput = input.Split().ToArray();
+                var splittedInput = input.Split().ToArray();
                 string product = splittedInput[0];
                 double singlePrice = double.Parse(splittedInput[1]);
                 int quantity = int.Parse(splittedInput[2]);
@@ -32,7 +32,6 @@ namespace _4._Orders
                     productsQuantity[product] = quantity;
                     productsAllPrice[product] = quantity * singlePrice;
                 }
-
                 else
                 {
                     foreach (var item in productsQuantity)
@@ -45,7 +44,6 @@ namespace _4._Orders
                         }
                     }
                 }
-
             }
 
             foreach (var item in productsAllPrice)

@@ -18,7 +18,6 @@ namespace _6._Even_and_Odd_Subtraction
                 {
                     evenNumbers += numbers[i];
                 }
-
                 else
                 {
                     oddNumbers += numbers[i];

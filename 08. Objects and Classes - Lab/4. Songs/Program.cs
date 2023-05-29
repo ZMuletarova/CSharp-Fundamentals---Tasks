@@ -38,7 +38,6 @@ namespace _4._Songs
                     Console.WriteLine(song.Name);
                 }
             }
-
             else
             {
                 foreach (TypeOfSongs song in songs)

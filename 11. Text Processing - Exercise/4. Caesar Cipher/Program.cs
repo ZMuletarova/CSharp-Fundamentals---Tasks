@@ -26,10 +26,8 @@ namespace _4._Caesar_Cipher
                 {
                     break;
                 }
-
                 output += (char)(35);
             }
-
             Console.WriteLine(output);
         }
     }

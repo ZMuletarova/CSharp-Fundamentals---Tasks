@@ -28,9 +28,7 @@ namespace _2._Message_Decrypter
                     Console.Write(newCharTwo);
                     char newCharThree = (char)(int.Parse(match.Groups["d3"].Value));
                     Console.WriteLine(newCharThree);
-
                 }
-
                 else
                 {
                     Console.WriteLine("Valid message not found!");

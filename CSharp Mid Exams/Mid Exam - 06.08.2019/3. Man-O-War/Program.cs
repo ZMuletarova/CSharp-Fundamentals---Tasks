@@ -83,7 +83,6 @@ namespace _3._Man_O_War
                     }
                 }
 
-
                 else if (commandARR[0] == "Repair")
                 {
                     int indexNumber = int.Parse(commandARR[1]);
@@ -110,7 +109,6 @@ namespace _3._Man_O_War
                     }
                 }
 
-
                 else if (commandARR[0] == "Status")
                 {
                     int count = 0;
@@ -128,7 +126,6 @@ namespace _3._Man_O_War
                     }
                 }
             }
-
 
             int sumPirate = 0;
             int sumWar = 0;

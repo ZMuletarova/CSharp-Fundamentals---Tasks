@@ -6,7 +6,6 @@ namespace _7._Store_Boxes
 {
     class Box
     {
-
         public string SerialNumber { get; set; }
 
         public Item Item { get; set; }
@@ -15,8 +14,5 @@ namespace _7._Store_Boxes
 
         public decimal PriceForBox
             => Item.Price * ItemQuantity;
-
-
-
     }
 }

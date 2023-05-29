@@ -21,15 +21,14 @@ namespace _6._Courses
                 }
 
                 string[] splittedInput = input.Split(" : ").ToArray();
-
                 string courseName = splittedInput[0];
                 string studentName = splittedInput[1];
+
                 if (!info.ContainsKey(courseName))
                 {
                     info[courseName] = new List<string>();
                     info[courseName].Add(studentName);
                 }
-
                 else
                 {
                     info[courseName].Add(studentName);

@@ -22,11 +22,8 @@ namespace _2._Match_Phone_Number
                     Console.WriteLine(number.Value);
                     break;
                 }
-
                 Console.Write(number.Value + ", ");
                 count++;
-
-
             }
         }
     }

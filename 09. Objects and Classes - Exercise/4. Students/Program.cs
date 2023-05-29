@@ -20,7 +20,6 @@ namespace _4._Students
             }
 
             //finalList.OrderBy(s => s.Grade);
-
             //Console.Write(string.Join("\n", finalList));
             List<Students> final = finalList.OrderByDescending(s => s.Grade).ToList();
             Console.Write(string.Join("\n", final));
@@ -37,8 +36,11 @@ namespace _4._Students
         }
 
         public string FirstName { get; set; }
+
         public string SecondName { get; set; }
+
         public decimal Grade { get; set; }
+
         public override string ToString()
         {
             return $"{FirstName} {SecondName}: {Grade}";

@@ -26,7 +26,6 @@ namespace Final_Exam_03._08._2019_Part_2
                     input = input.Replace(splittedCommand[1], splittedCommand[2]);
                     Console.WriteLine(input);
                 }
-
                 else if (splittedCommand[0]== "Includes")
                 {
                     if (input.Contains(splittedCommand[1]))
@@ -38,7 +37,6 @@ namespace Final_Exam_03._08._2019_Part_2
                         Console.WriteLine("False");
                     }
                 }
-
                 else if (splittedCommand[0]== "End")
                 {
                     string[] check = input.Split(" ");
@@ -46,26 +44,21 @@ namespace Final_Exam_03._08._2019_Part_2
                     {
                         Console.WriteLine("True");
                     }
-
                     else
                     {
                         Console.WriteLine("False");
                     }
                 }
-
                 else if (splittedCommand[0]== "Uppercase")
                 {
                     input = input.ToUpper();
                     Console.WriteLine(input);
                 }
-
                 else if (splittedCommand[0]== "FindIndex")
                 {
                     int index = input.IndexOf(splittedCommand[1]);
                     Console.WriteLine(index);
-                    
                 }
-
                 else if (splittedCommand[0]== "Cut")
                 {
                     int startIndex = int.Parse(splittedCommand[1]);

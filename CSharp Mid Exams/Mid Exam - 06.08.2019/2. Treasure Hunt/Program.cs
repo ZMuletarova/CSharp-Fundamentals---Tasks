@@ -9,6 +9,7 @@ namespace _2._Treasure_Hunt
         static void Main(string[] args)
         {
             List<string> input = Console.ReadLine().Split('|').ToList();
+
             while (true)
             {
                 string commands = Console.ReadLine();
@@ -30,7 +31,6 @@ namespace _2._Treasure_Hunt
                         }
                     }
                 }
-
                 else if (commandsARR[0] == "Drop")
                 {
                     int indexNumber = int.Parse(commandsARR[1]);
@@ -41,7 +41,6 @@ namespace _2._Treasure_Hunt
                         input.RemoveAt(indexNumber);
                     }
                 }
-
                 else if (commandsARR[0] == "Steal")
                 {
                     int indexNumber = int.Parse(commandsARR[1]);
@@ -58,13 +57,13 @@ namespace _2._Treasure_Hunt
                             Console.Write(input[i] + ", ");
                         }
                         Console.WriteLine();
+
                         for (int i = 0; i < input.Count; i++)
                         {
                             input.Remove(input[i]);
                             i--;
                         }
                     }
-
                     else
                     {
                         int nomers = input.Count - indexNumber;
@@ -87,7 +86,6 @@ namespace _2._Treasure_Hunt
                 }
             }
 
-
             if (input.Count>0)
             {
                 double sum = 0;
@@ -100,11 +98,9 @@ namespace _2._Treasure_Hunt
                         sum++;
                     }
                 }
-
                 double result = sum / input.Count;
                 Console.WriteLine($"Average treasure gain: {result:f2} pirate credits.");
             }
-
             else
             {
                 Console.WriteLine("Failed treasure hunt.");

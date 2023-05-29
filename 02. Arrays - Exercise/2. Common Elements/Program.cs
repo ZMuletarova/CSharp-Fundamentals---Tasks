@@ -10,8 +10,8 @@ namespace _2._Common_Elements
             string firstLine = Console.ReadLine();
             string secondLine = Console.ReadLine();
 
-            string[] firstSplittedArray = firstLine.Split();
-            string[] secondSplittedArray = secondLine.Split();
+            var firstSplittedArray = firstLine.Split();
+            var secondSplittedArray = secondLine.Split();
 
             for (int i = 0; i < firstSplittedArray.Length; i++)
             {

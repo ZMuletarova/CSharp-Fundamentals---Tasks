@@ -20,7 +20,6 @@ namespace _5._Nether_Realms
 
             string[] demonNames = Regex.Split(Console.ReadLine(), @"\s*,\s*").OrderBy(x => x).ToArray();
 
-
             for (int i = 0; i < demonNames.Length; i++)
             {
                 string currentDemon = demonNames[i];
@@ -53,14 +52,11 @@ namespace _5._Nether_Realms
                         baseDamage *= 2;
 
                     }
-
                     else
                     {
                         baseDamage /= 2;
                     }
-
                 }
-
                 Console.WriteLine($"{currentDemon} - {currentHealth} health, {baseDamage:f2} damage");
             }
         }

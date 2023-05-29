@@ -20,7 +20,6 @@ namespace _3._Inbox_Manager
                 {
                     break;
                 }
-
                 else if (splittedCommand[0]=="Add")
                 {
                     string userName = splittedCommand[1];
@@ -29,13 +28,11 @@ namespace _3._Inbox_Manager
                     {
                         dic[userName] = new List<string>();
                     }
-
                     else
                     {
                         Console.WriteLine($"{userName} is already registered");
                     }
                 }
-
                 else if (splittedCommand[0] == "Send")
                 {
                     string sentEmail = splittedCommand[2];
@@ -48,7 +45,6 @@ namespace _3._Inbox_Manager
                         }
                     }
                 }
-
                 else if (splittedCommand[0] == "Delete")
                 {
                     string userName = splittedCommand[1];
@@ -57,7 +53,6 @@ namespace _3._Inbox_Manager
                     {
                         dic.Remove(userName);
                     }
-
                     else
                     {
                         Console.WriteLine($"{userName} not found!");
@@ -66,7 +61,6 @@ namespace _3._Inbox_Manager
             }
 
             var finalDic = dic.OrderByDescending(x => x.Value.Count).ThenBy(x => x.Key).ToArray();
-
             Console.WriteLine($"Users count: {dic.Values.Count}");
 
             foreach (var item in finalDic)

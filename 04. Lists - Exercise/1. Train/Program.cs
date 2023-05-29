@@ -8,7 +8,7 @@ namespace _1._Train
     {
         static void Main(string[] args)
         {
-            List<int> wagons = Console.ReadLine().Split().Select(int.Parse).ToList();
+            var wagons = Console.ReadLine().Split().Select(int.Parse).ToList();
             int maxCapacityEachWagon = int.Parse(Console.ReadLine());
 
             while (true)
@@ -19,17 +19,15 @@ namespace _1._Train
                 {
                     break;
                 }
-
                 else
                 {
-                    string[] splittedInput = input.Split();
+                    var splittedInput = input.Split();
 
                     if (splittedInput[0] == "Add")
                     {
                         int addNumberVagoons = int.Parse(splittedInput[1]);
                         wagons.Add(addNumberVagoons);
                     }
-
                     else
                     {
                         string addPassengers = splittedInput[0];

@@ -9,26 +9,23 @@ namespace _3._Calculations
             string name = Console.ReadLine();
             if (name=="add")
             {
-                add();
+                Add();
             }
-
             else if (name=="multiply")
             {
-                multiply();
+                Multiply();
             }
-
             else if (name=="subtract")
             {
-                subtract();
+                Subtract();
             }
-
             else if (name=="divide")
             {
-                divide();
+                Divide();
             }
         }
 
-        static void add()
+        static void Add()
         {
             int number1 = int.Parse(Console.ReadLine());
             int number2 = int.Parse(Console.ReadLine());
@@ -37,7 +34,7 @@ namespace _3._Calculations
             Console.WriteLine(sum);
         }
 
-        static void multiply()
+        static void Multiply()
         {
             int number1 = int.Parse(Console.ReadLine());
             int number2 = int.Parse(Console.ReadLine());
@@ -46,7 +43,7 @@ namespace _3._Calculations
             Console.WriteLine(sum);
         }
 
-        static void subtract()
+        static void Subtract()
         {
             int number1 = int.Parse(Console.ReadLine());
             int number2 = int.Parse(Console.ReadLine());
@@ -55,7 +52,7 @@ namespace _3._Calculations
             Console.WriteLine(sum);
         }
 
-        static void divide()
+        static void Divide()
         {
             int number1 = int.Parse(Console.ReadLine());
             int number2 = int.Parse(Console.ReadLine());

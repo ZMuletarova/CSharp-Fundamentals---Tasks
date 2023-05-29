@@ -12,10 +12,10 @@ namespace _7._Store_Boxes
         static void Main(string[] args)
         {
             List<Box> boxes = new List<Box>();
+
             while (true)
             {
                 string input = Console.ReadLine();
-
                 if (input=="end")
                 {
                     break;
@@ -35,10 +35,8 @@ namespace _7._Store_Boxes
                 box.SerialNumber = serialNumber;
                 box.ItemQuantity = itemQuantity;
                 box.Item = item;
-
                 boxes.Add(box);
             }
-
             
             foreach (Box box in boxes.OrderByDescending(x=>x.PriceForBox))
             {

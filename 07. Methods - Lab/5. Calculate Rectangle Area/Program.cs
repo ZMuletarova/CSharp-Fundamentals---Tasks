@@ -13,7 +13,7 @@ namespace _6._Calculate_Rectangle_Area
             Console.WriteLine(area);
         }
 
-       static double Rectangle(double widch, double heigh)
+        static double Rectangle(double widch, double heigh)
         {
             return widch * heigh;
         }

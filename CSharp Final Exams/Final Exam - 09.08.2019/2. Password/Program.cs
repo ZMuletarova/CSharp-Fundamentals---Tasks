@@ -28,13 +28,11 @@ namespace _2._Password
                     string final = one + second + third + four;
                     Console.WriteLine($"Password: {final}");
                 }
-
                 else
                 {
                     Console.WriteLine("Try another password!");
                 }
             }
-
         }
     }
 }

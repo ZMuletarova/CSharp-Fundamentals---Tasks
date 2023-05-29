@@ -12,17 +12,14 @@ namespace _5._Orders
             {
                 Coffee();
             }
-
             else if (product=="coke")
             {
                 Coke();
             }
-
             else if (product=="water")
             {
                 Water();
             }
-
             else if (product == "snacks")
             {
                 Snacks();
@@ -37,7 +34,6 @@ namespace _5._Orders
 
             Console.WriteLine($"{sum:f2}");
         }
-
 
         static void Coke()
         {

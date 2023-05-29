@@ -15,10 +15,9 @@ namespace _5._SoftUni_Parking
 
             for (int i = 0; i < numberOfCommands; i++)
             {
-                string[] info = Console.ReadLine().Split().ToArray();
+                var info = Console.ReadLine().Split().ToArray();
                 string action = info[0];
                 string userName = info[1];
-              
 
                 if (action == "register")
                 {
@@ -27,7 +26,6 @@ namespace _5._SoftUni_Parking
                     {
                         Console.WriteLine($"{userName} registered {licensePlateNumber} successfully");
                         dic.Add(userName, licensePlateNumber);
-                       
                     }
 
                     else
@@ -42,7 +40,6 @@ namespace _5._SoftUni_Parking
                     {
                         Console.WriteLine($"ERROR: user {userName} not found");
                     }
-
                     else
                     {
                         Console.WriteLine($"{userName} unregistered successfully");

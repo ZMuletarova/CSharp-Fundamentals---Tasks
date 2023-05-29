@@ -8,7 +8,7 @@ namespace _5._Remove_Negatives_and_Reverse
     {
         static void Main(string[] args)
         {
-            List<int> numbers = Console.ReadLine().Split().Select(int.Parse).ToList();
+            var numbers = Console.ReadLine().Split().Select(int.Parse).ToList();
 
             for (int i = 0; i < numbers.Count; i++)
             {
@@ -24,7 +24,6 @@ namespace _5._Remove_Negatives_and_Reverse
             {
                 Console.WriteLine("empty");
             }
-
             else
             {
                 numbers.Reverse();

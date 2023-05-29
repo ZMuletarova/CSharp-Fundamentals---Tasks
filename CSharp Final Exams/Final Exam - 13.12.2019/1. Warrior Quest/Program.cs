@@ -26,13 +26,11 @@ namespace Final_Exam_13._12._2019
                     input = input.ToUpper();
                     Console.WriteLine(input);
                 }
-
                 else if (command == "DefensiveStance")
                 {
                     input = input.ToLower();
                     Console.WriteLine(input);
                 }
-
                 else if (splittedCommand[0] == "Dispel")
                 {
                     int index = int.Parse(splittedCommand[1]);
@@ -43,13 +41,11 @@ namespace Final_Exam_13._12._2019
                         input = input.Remove(index + 1, 1);
                         Console.WriteLine("Success!");
                     }
-
                     else
                     {
                         Console.WriteLine("Dispel too weak.");
                     }
                 }
-
                 else if (splittedCommand[0] == "Target")
                 {
                     if (splittedCommand[1] == "Change")
@@ -60,7 +56,6 @@ namespace Final_Exam_13._12._2019
                             Console.WriteLine(input);
                         }
                     }
-
                     else if (splittedCommand[1] == "Remove")
                     {
                         if (input.Contains(splittedCommand[2]))
@@ -69,13 +64,11 @@ namespace Final_Exam_13._12._2019
                             Console.WriteLine(input);
                         }
                     }
-
                     else
                     {
                         Console.WriteLine("Command doesn't exist!");
                     }
                 }
-
                 else
                 {
                     Console.WriteLine("Command doesn't exist!");

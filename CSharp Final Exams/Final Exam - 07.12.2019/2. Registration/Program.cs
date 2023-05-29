@@ -15,11 +15,8 @@ namespace _2._Registration
             for (int i = 0; i < count; i++)
             {
                 string input = Console.ReadLine();
-
                 string pattern = @"[U][$](?<username>[A-Z][a-z]{2,})[U][$][P][@][$](?<pass>[A-Za-z]{5,}\d{1,})[P][@][$]";
-
                 Match match = Regex.Match(input, pattern);
-
 
                 if (match.Success)
                 {
@@ -30,14 +27,11 @@ namespace _2._Registration
                     Console.WriteLine("Registration was successful");
                     Console.WriteLine($"Username: {userName}, Password: {pass}");
                 }
-
                 else
                 {
                     Console.WriteLine("Invalid username or password");
                 }
-
             }
-
             Console.WriteLine($"Successful registrations: {countSuccessPass}");
         }
     }

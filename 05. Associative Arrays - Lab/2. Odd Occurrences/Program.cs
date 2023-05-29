@@ -9,7 +9,7 @@ namespace _2._Odd_Occurrences_1
         static void Main(string[] args)
         {
             string input = Console.ReadLine().ToLower();
-            string[] splittedInput = input.Split();
+            var splittedInput = input.Split();
 
             var dic = new Dictionary<string, int>();
 
@@ -19,8 +19,7 @@ namespace _2._Odd_Occurrences_1
                 {
                     dic[splittedInput[i]] = 1;
                 }
-
-                else
+                selse
                 {
                     dic[splittedInput[i]] += 1;
                 }

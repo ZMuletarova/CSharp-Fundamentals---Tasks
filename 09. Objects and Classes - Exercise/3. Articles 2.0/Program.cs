@@ -16,7 +16,6 @@ namespace _3._Articles_2._0
             {
                 string[] tokens = Console.ReadLine().Split(", ").ToArray();
                 Articles myArticle = new Articles(tokens[0], tokens[1], tokens[2]);
-
                 list.Add(myArticle);
             }
 
@@ -27,13 +26,11 @@ namespace _3._Articles_2._0
                 List<Articles> sortedArticle = list.OrderBy(a => a.Title).ToList();
                 Console.Write(string.Join("\n", sortedArticle));
             }
-
             else if (sortWord == "content")
             {
                 List<Articles> sortedArticle = list.OrderBy(a => a.Content).ToList();
                 Console.Write(string.Join("\n", sortedArticle));
             }
-
             else
             {
                 List<Articles> sortedArticle = list.OrderBy(a => a.Author).ToList();
@@ -52,7 +49,9 @@ namespace _3._Articles_2._0
         }
 
         public string Title { get; set; }
+
         public string Content { get; set; }
+
         public string Author { get; set; }
 
         public override string ToString()
@@ -62,7 +61,6 @@ namespace _3._Articles_2._0
 
         public void Reverse()
         {
-
         }
     }
 }

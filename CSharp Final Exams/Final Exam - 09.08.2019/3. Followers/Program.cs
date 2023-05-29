@@ -28,7 +28,6 @@ namespace _3._Followers
                         dic[splittedCommand[1]] = new int[] { 0, 0 };
                     }
                 }
-
                 else if (splittedCommand[0] == "Like")
                 {
                     string userName = splittedCommand[1];
@@ -38,33 +37,28 @@ namespace _3._Followers
                     {
                         dic[userName] = new int[] { count, 0 };
                     }
-
                     else
                     {
                         dic[userName][0] += count;
                     }
                 }
-
                 else if (splittedCommand[0] == "Comment")
                 {
                     if (!dic.ContainsKey(splittedCommand[1]))
                     {
                         dic[splittedCommand[1]] = new int[] { 0, 1 };
                     }
-
                     else
                     {
                         dic[splittedCommand[1]][1] += 1;
                     }
                 }
-
                 else if (splittedCommand[0] == "Blocked")
                 {
                     if (dic.ContainsKey(splittedCommand[1]))
                     {
                         dic.Remove(splittedCommand[1]);
                     }
-
                     else
                     {
                         Console.WriteLine($"{splittedCommand[1]} doesn't exist.");
@@ -73,7 +67,6 @@ namespace _3._Followers
             }
 
             Console.WriteLine($"{dic.Count} followers");
-
             var final = dic.OrderByDescending(x => x.Value[0]).ThenBy(x => x.Key).ToArray();
 
             foreach (var item in final)

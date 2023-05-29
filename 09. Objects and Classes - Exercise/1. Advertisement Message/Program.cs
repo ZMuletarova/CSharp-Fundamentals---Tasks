@@ -6,7 +6,6 @@ namespace Objects_and_Classes_UPR
     {
         static void Main(string[] args)
         {
-
             Random newRandom = new Random();
 
             string[] phrases = { "Excellent product.", "Such a great product.", "I always use that product.", "Best product of its category.", "Exceptional product.", "I can’t live without this product." };
@@ -25,16 +24,6 @@ namespace Objects_and_Classes_UPR
 
                 Console.WriteLine($"{phrases[phrasesIndex]} {events[eventIndex]} {authors[authorsIndex]} – {cities[citiesIndex]}.");
             }
-
-
-
-
-
-
-
         }
-
-
     }
-
 }

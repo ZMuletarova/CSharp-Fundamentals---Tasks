@@ -17,7 +17,6 @@ namespace Dictionaries__Lambda_and_LINQ_LAB
                 {
                     countOfNumber[number] = 1;
                 }
-
                 else
                 {
                     countOfNumber[number] += 1;

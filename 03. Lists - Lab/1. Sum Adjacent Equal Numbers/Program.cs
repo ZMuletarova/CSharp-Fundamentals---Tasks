@@ -8,7 +8,7 @@ namespace _1._Sum_Adjacent_Equal_Numbers
     {
         static void Main(string[] args)
         {
-            List<double> numbers = Console.ReadLine().Split().Select(double.Parse).ToList();
+            var numbers = Console.ReadLine().Split().Select(double.Parse).ToList();
 
             for (int i = 0; i < numbers.Count-1; i++)
             {
@@ -25,6 +25,5 @@ namespace _1._Sum_Adjacent_Equal_Numbers
                 Console.Write(numbers[i] + " ");
             }
         }
-    
     }
 }

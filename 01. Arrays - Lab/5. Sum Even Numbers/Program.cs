@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq;
 
-
 namespace _5._Sum_Even_Numbers
 {
     class Program

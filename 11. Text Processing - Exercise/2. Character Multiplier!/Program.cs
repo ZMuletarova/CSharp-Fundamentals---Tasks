@@ -13,7 +13,6 @@ namespace _2.__Character_Multiplier_
             double totalSum = 0;
             double multiply = 0;
 
-
             if (inputOne.Length == inputTwo.Length)
             {
                 for (int j = 0; j < inputOne.Length; j++)
@@ -43,7 +42,6 @@ namespace _2.__Character_Multiplier_
                         }
                     }
                 }
-
                 else
                 {
                     for (int j = 0; j < inputTwo.Length; j++)
@@ -60,7 +58,6 @@ namespace _2.__Character_Multiplier_
                         }
                     }
                 }
-
                 Console.WriteLine(totalSum);
             }
         }

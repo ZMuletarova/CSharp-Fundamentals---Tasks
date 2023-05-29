@@ -7,8 +7,7 @@ namespace _4._Array_Rotation
     {
         static void Main(string[] args)
         {
-            int[] numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
-
+            var numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
             int rotations = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < rotations; i++)
@@ -19,10 +18,8 @@ namespace _4._Array_Rotation
                 {
                     numbers[j] = numbers[j + 1];
                 }
-                
                 numbers[numbers.Length - 1] = firstNumber;
             }
-
             Console.WriteLine(string.Join(" ", numbers));
         }
     }

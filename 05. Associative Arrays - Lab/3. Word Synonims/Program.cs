@@ -20,7 +20,6 @@ namespace _2._Odd_Occurrences
                 {
                     words[word] = new List<string>();
                 }
-
                 words[word].Add(synonim);
             }
 

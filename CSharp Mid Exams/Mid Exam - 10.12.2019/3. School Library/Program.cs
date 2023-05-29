@@ -59,7 +59,7 @@ namespace _3._School_Library
                     int indexSecond = 0;
 
                     if (books.Contains(splittedInput[1]) && books.Contains(splittedInput[2]))
-                        {
+                    {
                         for (int i = 0; i < books.Count; i++)
                         {
 
@@ -111,7 +111,7 @@ namespace _3._School_Library
 
             for (int i = 0; i < books.Count; i++)
             {
-                if (i== books.Count-1)
+                if (i == books.Count - 1)
                 {
                     Console.Write(books[i]);
                     break;

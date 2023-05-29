@@ -27,7 +27,6 @@ namespace _5._Teamwork_projects
                     Console.WriteLine($"Team {name} was already created!");
                     continue;
                 }
-
                 if (exisitingTeamCreator != null)
                 {
                     Console.WriteLine($"{creator} cannot create another team!");
@@ -55,14 +54,12 @@ namespace _5._Teamwork_projects
                     line = Console.ReadLine();
                     continue;
                 }
-
                 if (existingTeamMmebers != null)
                 {
                     Console.WriteLine($"Member {member} cannot join team {name}!");
                     line = Console.ReadLine();
                     continue;
                 }
-
                 existingTeam.Members.Add(member);
                 line = Console.ReadLine();
             }
@@ -83,11 +80,11 @@ namespace _5._Teamwork_projects
             }
         }
     }
+
     class Team
     {
         public string Creator { get; set; }
         public string Name { get; set; }
-
         public List<string> Members { get; set; }
 
         public Team(string creator, string name)

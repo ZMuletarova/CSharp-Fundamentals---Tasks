@@ -12,7 +12,7 @@ namespace _3._Legendary_Farming
         {
             var dic = new Dictionary<string, int>();
             string input = Console.ReadLine().ToLower();
-            string[] splittedInput = input.Split().ToArray();
+            var splittedInput = input.Split().ToArray();
 
             for (int i = 1; i < splittedInput.Length; i++)
             {
@@ -48,7 +48,6 @@ namespace _3._Legendary_Farming
                     }
 
                     else
-
                     {
                         dic[splittedInput[i]] += int.Parse(splittedInput[i - 1]);
 

@@ -8,9 +8,7 @@ namespace _5._Digits__Letters_and_Other
     {
         static void Main(string[] args)
         {
-
             string input = Console.ReadLine();
-
             char[] splittedInput = input.ToCharArray();
             string text = string.Empty;
             string numbers = string.Empty;
@@ -35,9 +33,9 @@ namespace _5._Digits__Letters_and_Other
                     symbol += splittedInput[i];
                 }
             }
-
             Console.WriteLine(numbers);
             Console.WriteLine(text);
+
             foreach (var item in symbol)
             {
                 Console.Write(item);

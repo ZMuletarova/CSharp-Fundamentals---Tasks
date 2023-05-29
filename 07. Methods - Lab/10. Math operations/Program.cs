@@ -15,20 +15,17 @@ namespace _11._Math_operations
                 double area = Add(number1, number2);
                 Console.WriteLine(area);
             }
-
-            else if (symbol=="-")
+            else if (symbol == "-")
             {
                 double area = Subtract(number1, number2);
                 Console.WriteLine(area);
             }
-
-            else if (symbol=="*")
+            else if (symbol == "*")
             {
                 double area = Multiplication(number1, number2);
                 Console.WriteLine(area);
             }
-
-            else if (symbol=="/")
+            else if (symbol == "/")
             {
                 double area = Divide(number1, number2);
                 Console.WriteLine(area);
@@ -47,7 +44,7 @@ namespace _11._Math_operations
 
         static double Multiplication(double number1, double number2)
         {
-            return number1 *number2;
+            return number1 * number2;
         }
 
         static double Divide(double number1, double number2)

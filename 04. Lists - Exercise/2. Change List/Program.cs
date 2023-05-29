@@ -9,18 +9,17 @@ namespace _2._Change_List
     {
         static void Main(string[] args)
         {
-            List<int> numbers = Console.ReadLine().Split().Select(int.Parse).ToList();
+            var numbers = Console.ReadLine().Split().Select(int.Parse).ToList();
 
             while (true)
             {
                 string command = Console.ReadLine();
-                string[] splittedCommand = command.Split();
+                var splittedCommand = command.Split();
 
                 if (splittedCommand[0] == "end")
                 {
                     break;
                 }
-
                 else
                 {
                     if (splittedCommand[0] == "Delete")
@@ -31,7 +30,6 @@ namespace _2._Change_List
                             numbers.Remove(numberToRemove);
                         }
                     }
-
                     else if (splittedCommand[0] == "Insert")
 
                     {

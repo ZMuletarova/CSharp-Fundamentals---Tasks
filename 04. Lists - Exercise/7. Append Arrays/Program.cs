@@ -8,12 +8,12 @@ namespace _7._Append_Arrays
     {
         static void Main(string[] args)
         {
-            List<string> numbers = Console.ReadLine().Split("|").ToList();
-            List<string> result = new List<string>();
+            var numbers = Console.ReadLine().Split("|").ToList();
+            var result = new List<string>();
 
             for (int i = numbers.Count - 1; i >= 0; i--)
             {
-                string[] num = numbers[i].Split(" ", StringSplitOptions.RemoveEmptyEntries);
+                var num = numbers[i].Split(" ", StringSplitOptions.RemoveEmptyEntries);
 
                 for (int j = 0; j < num.Length; j++)
                 {

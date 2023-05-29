@@ -6,7 +6,5 @@ namespace Object_and_Classes_LAB
 {
     class Date
     {
-
-
     }
 }

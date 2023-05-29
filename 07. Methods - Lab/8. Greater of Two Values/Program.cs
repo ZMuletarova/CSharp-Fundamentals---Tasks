@@ -18,7 +18,7 @@ namespace _9._Greater_of_Two_Values
                 int numberOne = int.Parse(Console.ReadLine());
                 int numberTwo = int.Parse(Console.ReadLine());
 
-                if (numberOne>numberTwo)
+                if (numberOne > numberTwo)
                 {
                     Console.WriteLine(numberOne);
                 }
@@ -27,7 +27,6 @@ namespace _9._Greater_of_Two_Values
                     Console.WriteLine(numberTwo);
                 }
             }
-
             else if (type == "char")
             {
                 char numberOne = char.Parse(Console.ReadLine());
@@ -36,7 +35,7 @@ namespace _9._Greater_of_Two_Values
                 int newOne = (int)(numberOne);
                 int newTwo = (int)(numberTwo);
 
-                if (newOne>newTwo)
+                if (newOne > newTwo)
                 {
                     Console.WriteLine(numberOne);
                 }
@@ -45,8 +44,7 @@ namespace _9._Greater_of_Two_Values
                     Console.WriteLine(numberTwo);
                 }
             }
-
-            else if (type =="string")
+            else if (type == "string")
             {
                 int currenSumOne = 0;
                 int currenSumTwo = 0;
@@ -57,7 +55,7 @@ namespace _9._Greater_of_Two_Values
 
                 for (int i = 0; i < newNumberOne.Length; i++)
                 {
-                     currenSumOne =+ (int)(i);
+                    currenSumOne = +(int)(i);
                 }
 
                 string numberTwo = Console.ReadLine();

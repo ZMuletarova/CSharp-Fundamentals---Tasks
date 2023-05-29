@@ -7,7 +7,6 @@ namespace _7._Equal_Arrays
     {
         static void Main(string[] args)
         {
-
             var firstArray = Console.ReadLine().Split().Select(int.Parse).ToArray();
             var secondArray = Console.ReadLine().Split().Select(int.Parse).ToArray();
 
@@ -22,7 +21,6 @@ namespace _7._Equal_Arrays
                     counter = i;
                     break;
                 }
-
                 else
                 {
                     sumArrays += firstArray[i];
@@ -34,7 +32,6 @@ namespace _7._Equal_Arrays
             {
                 Console.WriteLine($"Arrays are identical. Sum: {sumArrays}");
             }
-
             else
             {
                 Console.WriteLine($"Arrays are not identical. Found difference at {counter} index");

@@ -10,6 +10,7 @@ namespace _5._Students
         static void Main(string[] args)
         {
             List<Students> students = new List<Students>();
+
             while (true)
             {
                 string command = Console.ReadLine();
@@ -19,7 +20,6 @@ namespace _5._Students
                 }
 
                 string[] commandARR = command.Split(" ");
-
                 string firstName = commandARR[0];
                 string lastName = commandARR[1];
                 int ageName = int.Parse(commandARR[2]);
